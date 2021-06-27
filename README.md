@@ -30,7 +30,7 @@ here is my solution for the callenge from Frontend Mentor | Profile card compone
 ### Links
 
 - Solution URL: [https://github.com/anas-cd/profile-card-component](https://github.com/anas-cd/profile-card-component)
-- Live Site URL: [https://anas-cd.github.io/profile-card-component](https://anas-cd.github.io/profile-card-component)
+- Live Site URL: [https://anas-cd.github.io/profile-card-component](https://anas-cd.github.io/profile-card-component/index.html)
 
 ## My process
 
