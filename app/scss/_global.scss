@@ -1,0 +1,122 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;   
+}
+
+body {
+    padding: 1.5rem;
+    background-color: $dark_cyan;
+    // color: #000;
+    // font-family: 'Kumbh Sans', sans-serif;
+    // line-height: 1.3;
+    // font-size: 1.125rem;
+    // height: 100vh;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    
+    &>img {
+        position: fixed;
+        width: 1000px;
+        &.topl { 
+            z-index: -1;
+            top: -60%;
+            right: 48%;
+        }
+    
+        &.bottomr {
+            z-index: -1;
+            top: 56%;
+            left: 47%;
+        }
+    }
+    
+}
+.container { 
+    color: #000;
+    font-family: 'Kumbh Sans', sans-serif;
+    line-height: 1.3;
+    font-size: 1.125rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    background-color: $white;
+    border-radius: 15px;
+    max-width: 350px;
+    height: 374px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+    box-shadow: 1px 30px 80px #00000038;
+    .profile {
+        background-image: url("/images/bg-pattern-card.svg");
+        background-repeat: no-repeat;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex: 0 1 75%;
+        img {
+            border-radius: 55px;
+            border: 5px solid $white;
+            margin-top: 90px;
+        }
+
+        .name { 
+            font-weight: 700;
+            margin-top: 20px;
+        }
+
+        .age { 
+            color: $dark_gray;
+            font-weight: 400;
+        }
+        
+        .location { 
+            font-weight: 400;
+            color: $dark_gray;
+            margin-top: 10px;
+        }
+    }
+
+
+    .stats {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+        border-top: 1px solid $dark_gray_25;
+        margin-top: 15px;
+        flex: 1 0 25%;
+        .stat {
+            text-align: center;
+            margin-top: 20px;
+            .num {
+                font-weight: 700;
+            }
+
+            .cat {
+                font-weight: 400;
+                color: $dark_gray;
+                font-size: 0.850rem;
+                margin-top: 5px;
+            }
+        }
+
+    }
+
+
+}
+
+p {
+    margin: unset;
+}
